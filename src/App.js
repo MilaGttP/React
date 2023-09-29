@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
-function App() {
+function App(props) {
+  var header = props.header, author = props.author, text = props.text;
+  
+  if (header === undefined) header = "Default header";
+  if (author === undefined) author = "Default author";
+  if (text === undefined) text = "Default text";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+    <div className="article-div">
+      <h2>{header}</h2>
+      <h4>{author}</h4>
+      <p>{text}</p>
     </div>
   );
 }
