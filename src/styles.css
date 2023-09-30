@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.App {
+    text-align: center;
+}
+
+.timer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .time-display {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .buttons {
+    margin: 20px 0;
+  }
+  
+  .start-button, .stop-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .start-button {
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  
+  .stop-button {
+    background-color: red;
+    color: white;
+    border: none;
+  }  
