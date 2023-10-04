@@ -1,11 +1,9 @@
-import Timer from './Components/Timer';
+import RegistrationForm from './Forms/RegistrationForm';
 
 function App() {
   return (
     <div className="App">
-      <Timer name="Europe/Kiev" />
-      <Timer name="America/New_York" />
-      <Timer name="Asia/Hong_Kong" />
+      <RegistrationForm />
     </div>
   );
 }
